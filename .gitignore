@@ -198,6 +198,11 @@ PublishScripts/
 *.nupkg
 # NuGet Symbol Packages
 *.snupkg
+
+# Local SQLite database used for the Blazing Pizza sample
+pizza.db
+pizza.db-shm
+pizza.db-wal
 # The packages folder can be ignored because of Package Restore
 **/[Pp]ackages/*
 # except build/, which is used as an MSBuild target.
